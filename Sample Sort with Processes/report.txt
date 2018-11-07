@@ -1,0 +1,24 @@
+My Operating system is XUbuntu 18.04
+My processor model is Intel Core i7 2.2 GHz
+My number of cores is 4
+
+ +-----------+------------+-------------+------------+-----+
+ | Processes | First Test | Second Test | Third Test | PS  |
+ +-----------+------------+-------------+------------+-----+
+ |     1     |    12.8    |     13      |    13.09   |  1  |
+ |     4     |    13.09   |     13.1    |    13.15   |0.992|
+ |     8     |    14.2    |     15      |    15.5    |0.87 |
+ +-----------+------------+-------------+------------+-----+
+
+My results are:
+
+Actuaaly, the table above shows that there is no speedup when
+multiple processes are running, so that is a minus. However,
+my results arepretty clear and they show that my sample sort
+is actually working.
+
+
+
+Sample sort is:
+
+Not the best sorting algorithm.
